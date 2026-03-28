@@ -10,7 +10,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: process.platform === "win32" ? undefined : "standalone",
+  // output: process.platform === "win32" ? undefined : "standalone",
   images: {
     remotePatterns: [
       ...[NEXT_PUBLIC_SERVER_URL /* 'https://example.com' */].map((item) => {
